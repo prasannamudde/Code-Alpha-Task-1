@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <!-- Main Header Section -->
+    <header class="main-header">
+        <h1><marquee>Welcome to our Footwear</marquee></h1>
+        <div class="cart-container">
+            <button class="cart-button">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+    <!-- Category Navigation Section -->
+    <section class="category-nav">
+        <button onclick="scrollToCategory('Home')">Home</button>
+        <button onclick="scrollToCategory('Women')">Women</button>
+        <button onclick="scrollToCategory('Men')">Men</button>
+        <button onclick="scrollToCategory('Kids')">Kids</button>
+    </section>
+    <!-- Categories Section -->
+    <section id="Women" class="category-section">
+        <h2>Women Footwear</h2>
+        <div class="product-container">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="product1.jpg" alt="white shoe">
+                <h3>white shoe</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 1', 29.99)">Add to Cart</button>
+                </div>
+                        <!-- Product 2 -->
+            <div class="product-card">
+                <img src="product2.jpg" alt="white shoe">
+                <h3>white shoe</h3>
+                <p>$49.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 2',49.99)">Add to Cart</button>
+                </div>
+                        <!--Product 3-->
+            <div class="product-card">
+                <img src="product3.jpg" alt="pink shoe">
+                <h3>pink shoe</h3>
+                <p>$30.45</p>
+                <button class="add-to-cart" onclick="addToCart('product 3',30.45)">Add to Cart</button>
+                </div>
+                        <!--Product 4-->
+            <div class="product-card">
+                <img src="product4.jpg" alt="cement shoe">
+                <h3>cement shoe</h3>
+                <p>$26.08</p>
+                <button class="add-to-cart" onclick="addToCart('product 4,26.08')">Add to Cart</button>
+                </div>
+            <!-- Product 5-->
+            <div class="product-card">
+                <img src="product5.jpg" alt=" sport shoe">
+                <h3>sport shoe</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 5',39.99)">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="product6.jpg" alt="sport shoe">
+                <h3>sport shoe</h3>
+                <p>$54.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 6',54.99)">Add to Cart</button>
+            </div>
+            <!-- Product 7-->
+            <div class="product-card">
+                <img src="product7.jpg" alt="causal shoe">
+                <h3>causal shoe</h3>
+                <p>$49.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 7',49.92)">Add to Cart</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src="product8.jpg" alt="pink shoe">
+                <h3>pink shoe</h3>
+                <p>$75.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 8',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product9.jpg" alt="flats">
+                <h3>modern flats</h3>
+                <p>$65.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 9',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product10.jpg" alt="white bilte">
+                <h3>white bilte</h3>
+                <p>$75.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 10',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product11.jpg" alt="cement flats">
+                <h3>cement flats</h3>
+                <p>$45.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 11',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product12.jpg" alt="pink flats">
+                <h3>pink flats</h3>
+                <p>$65.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 12',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product13.jpg" alt="white(heals)metro">
+                <h3>white(heals)metro</h3>
+                <p>$55.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 13',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product14.jpg" alt="red heals">
+                <h3>red heals</h3>
+                <p>$67.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 14',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product15.jpg" alt="orange & black heals">
+                <h3>orange & black hills</h3>
+                <p>$85.42</p>
+                <button class="add-to-cart" onclick="addToCart('product 15',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product16.jpg" alt="red heal shoe">
+                <h3>red heal shoe</h3>
+                <p>$65.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 16',75.02)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product17.jpg" alt="light orange heals">
+                <h3>light orange heals</h3>
+                <p>$75.02</p>
+                <button class="add-to-cart" onclick="addToCart('product 17',75.02)">Add to Cart</button>
+            </div>
+        </div>   
+    </section>
+    <section id="Men" class="category-section">
+        <h2>Mens footwear</h2>
+        <div class="product-container">
+            <!-- Product 18 -->
+            <div class="product-card">
+                <img src="product18.jpg" alt=" cement shoe">
+                <h3>cement shoe</h3>
+                <p>$67.94</p>
+                <button class="add-to-cart" onclick="addToCart('product 18',39.94)">Add to Cart</button>
+            </div>
+            <!-- Product 19 -->
+            <div class="product-card">
+                <img src="product19.jpg" alt="blue shoe">
+                <h3>blue shoe</h3>
+                <p>$99.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 19',99.99)">Add to Cart</button>
+            </div>
+            <!-- Product 20 -->
+            <div class="product-card">
+                <img src="product20.jpg" alt="brown shoe">
+                <h3>brown shoe</h3>
+                <p>$32.99</p>
+                <button class="add-to-cart" onclick="addToCart('product 20',32.99)">Add to Cart</button>
+            </div>
+            <!-- Product 21 -->
+            <div class="product-card">
+                <img src="product21.jpg" alt="black crocks">
+                <h3>black crocks</h3>
+                <p>$67.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 21',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product22.jpg" alt="pink crocks">
+                <h3>pink crocks</h3>
+                <p>$87.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 22',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product23.jpg" alt="white crocks">
+                <h3>white crocks</h3>
+                <p>$67.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 23',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product24.jpg" alt="white crocks">
+                <h3>white crocks</h3>
+                <p>$47.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 24',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product25.jpg" alt="white sports shoe">
+                <h3>white sports shoe</h3>
+                <p>$67.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 25',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product26.jpg" alt="white & blue sports shoe">
+                <h3>white & blue sports shoe</h3>
+                <p>$77.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 26',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product27.jpg" alt="white & orange sports shoe">
+                <h3>white & orange sports shoe</h3>
+                <p>$67.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 27',67.52)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product28.jpg" alt="black sports shoe">
+                <h3>black sports shoe</h3>
+                <p>$87.52</p>
+                <button class="add-to-cart" onclick="addToCart('product 28',67.52)">Add to Cart</button>
+            </div>
+            </div>
+            <section id="Kids" class="category-section">
+                <h2> (Kid's footWear)</h2>
+                <div class="product-container">
+                <!-- Product 29 -->
+            <div class="product-card">
+                <img src="product29.jpg" alt="pink bilte shoe">
+                <h3>pink bilte shoe</h3>
+                <p>$45.33</p>
+                <button class="add-to-cart" onclick="addToCart('product 29',45.33)">Add to Cart</button>
+            </div>
+            <!-- Product 30 -->
+            <div class="product-card">
+                <img src="product30.jpg" alt="dark pink shoe">
+                <h3>dark pink shoe</h3>
+                <p>$23.54</p>
+                <button class="add-to-cart" onclick="addToCart('product 30',23.54)">Add to Cart</button>
+            </div>
+            <!-- Product 31 -->
+            <div class="product-card">
+                <img src="product31.jpg" alt="voilet shoe">
+                <h3>violet shoe</h3>
+                <p>$76.39</p>
+                <button class="add-to-cart" onclick="addToCart('product 31',76.39)">Add to Cart</button>
+            </div>
+            <!-- Product 32 -->
+            <div class="product-card">
+                <img src="product32.jpg" alt="dark blue & white shoe">
+                <h3>dark blue & white shoe</h3>
+                <p>$25.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 32',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product33.jpg" alt="sky blue shoe">
+                <h3>sky blue shoe</h3>
+                <p>$55.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 33',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product34.jpg" alt="pink & white shoe">
+                <h3>pink & white shoe</h3>
+                <p>$25.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 34',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product35.jpg" alt="red shoe">
+                <h3>red shoe</h3>
+                <p>$35.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 35',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product36.jpg" alt="white bilte shoe">
+                <h3>white  bilte shoe</h3>
+                <p>$65.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 36',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product37.jpg" alt="white shoe">
+                <h3>white shoe</h3>
+                <p>$45.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 37',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product38.jpg" alt="light pink shoe">
+                <h3>light pink shoe</h3>
+                <p>$65.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 38',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product39.jpg" alt="dark blue & white bilte">
+                <h3>dark blue & white bilte</h3>
+                <p>$55.72</p>
+                <button class="add-to-cart" onclick="addToCart('product 39',25.92)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product40.jpg" alt="red bilte">
+                <h3>red bilte</h3>
+                <p>$35.92</p>
+                <button class="add-to-cart" onclick="addToCart('product 40',25.92)">Add to Cart</button>
+            </div>     
+        </div>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>
